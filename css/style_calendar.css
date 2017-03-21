@@ -12,7 +12,7 @@ body{
   /*margin-left:150px;*/
   margin-top:20px;
   background:#ffff;
-  box-shadow:0 5px 25px rgba(21, 101, 192, 1);
+  /*box-shadow:0 5px 25px rgba(21, 101, 192, 1);*/
   color:#2e70c2;
 }
 .current{
