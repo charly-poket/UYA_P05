@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <meta content="text/html; charset=utf-8" http-equiv="content-type">
+      <title>Collaborate Classroom...</title>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/propio.css"/>
+      <link rel="stylesheet" href="css/style_calendar.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+      <div class="container">
+        <!-- Page Content goes here -->
+        <div class="row">
+
+          <!-- Inicio Cabecera -->
+          	<div class="col s5">
+          		<img src="img/CC_logo_02.png" width="300px">
+          	</div>
+		    <form class="col s7">
+		      <div class="row">
+		        <div class="input-field col s6">
+		          <label for="email" data-error="Formato de Email no válido" data-success="right">Email:</label>
+		          <input id="email" type="email" class="validate">
+		        </div>
+		        <div class="input-field col s6">
+		          <label for="password">Password</label>
+	          	  <input id="password" type="password" class="validate">
+		        </div>
+		      </div>
+		    </form>
+          <div class="col s10 object_center">
+			<a class='dropdown-button btn' href='#' data-activates='dropdown1'>Inicio</a>
+			<a class='dropdown-button btn' href='#' data-activates='dropdown1'>Quienes Somos</a>
+			<a class='dropdown-button btn' href='#' data-activates='dropdown1'>Campus Virtual</a>
+			<a class='dropdown-button btn' href='#' data-activates='dropdown1'>Mis Secciones</a>
+          </div>
+          <div class="col s2 object_center">
+          	<a href="#"><i class="small material-icons">settings_power</i></a>
+          	<a href="#"><i class="small material-icons">email</i></a>
+          	<a href="#"><i class="small material-icons">settings</i></a>
+          	<a href="#"><i class="small material-icons">info_outline</i></a>
+          </div>
+         <!-- Fin Cabecera -->
+
+          <div class="col s3">
+
+            <meta name="viewport" content="width=device-width">
+            <div class="calendar">
+            <div class="current">
+
+            <span class="date">4 </span>
+            <span class="month">July </span>
+            <span class="year">2016</span>
+            </div>
+            <div class="datelist"></div>
+            </div>
+
+
+
+          </div>
+          <div class="col s6" style="border: 1px solid blue;">
+            This div is 8-columns wide
+          </div>
+          <div class="col s3" style="border: 1px solid green;">
+            This div is 2-columns wide
+          </div>
+          <div class="col s12" style="border: 1px solid red;">
+            <footer>
+              <p>&copy; 2017 - Air&aacuten Villacorta Betancor, Carlos Fern&aacutendez Donate, David Dorta Acosta.</p>
+            </footer>
+          </div>
+        </div>
+      </div>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script src="js/index_calendar.js"></script>
+    </body>
+  </html>
